@@ -79,7 +79,7 @@ packages:
     source: hosted
     version: "2.0.10"
   build_runner:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: build_runner
       url: "https://pub.dartlang.org"
@@ -541,13 +541,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
-  web_ffi:
-    dependency: "direct main"
-    description:
-      name: web_ffi
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.7.2"
   web_socket_channel:
     dependency: transitive
     description:
