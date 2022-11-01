@@ -38,4 +38,6 @@ localaction:
 	# This has issues on M1 Macbooks even with the container architecture set to linux/amd64
 	act --container-architecture linux/amd64 workflow_dispatch --env DOCKERHUB_SECRET=${DOCKERPASSWORD} --env DOCKERHUB_USER=${DOCKERUSERNAME}
 
-
+.PHONY: frb_codegen
+frb_codegen:
+	flutter_rust_bridge_codegen --rust-input rust/src/lib.rs --dart-output lib/bridge_generated.dart

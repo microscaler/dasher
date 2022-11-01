@@ -1,6 +1,6 @@
 {
-    "name": "dasher",
-    "short_name": "dasher",
+    "name": "with_flutter",
+    "short_name": "with_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
